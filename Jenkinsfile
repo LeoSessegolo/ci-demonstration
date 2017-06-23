@@ -3,7 +3,7 @@ pipeline {
 
     stages {
         stage('Build') {
-	    node {
+	    steps {
 		echo 'Building..'
 		bat 'gradle build --info'
             }
