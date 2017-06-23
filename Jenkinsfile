@@ -3,9 +3,9 @@ pipeline {
 
     stages {
         stage('Build') {
-	    steps {
+	    node {
 		echo 'Building..'
-		archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+		bat 'gradle build --info'
             }
         }
         stage('Test') {
