@@ -7,7 +7,10 @@ import org.junit.Test;
 public class BestCalculatorEverTest {
 	
 	@Test
-	public void test() {
-		assertTrue(false);
+	public void testAddOnePlusOne() {
+		int a = 1;
+		int b = 1;
+		
+		assertEquals(2, BestCalculatorEver.add(a, b));
 	}
 }
