@@ -11,11 +11,13 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+		bat 'gradle test --info'
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+		echo 'DEPLOYED TO NASA! LAUCHING MISSON TO KOREA!'    
 	    }
         }
     }
