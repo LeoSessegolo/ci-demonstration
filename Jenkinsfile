@@ -5,7 +5,8 @@ pipeline {
         stage('Build') {
 	    steps {
 		echo 'Building..'
-		gradle 'build -x test'
+		bat 'mkdir'
+		archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
             }
         }
         stage('Test') {
