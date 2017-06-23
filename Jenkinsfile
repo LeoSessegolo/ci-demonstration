@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
 	    steps {
 		echo 'Building..'
-		bat 'gradle build --info'
+		bat 'gradle build -x test --info'
             }
         }
         stage('Test') {
