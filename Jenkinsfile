@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
 	    steps {
 		echo 'Building..'
+		gradle 'build -x test'
             }
         }
         stage('Test') {
