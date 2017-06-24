@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.4" branch-rate="1.0" lines-covered="2" lines-valid="5" branches-covered="0" branches-valid="0" complexity="1.0" version="1.9.4" timestamp="1498276447331">
+	<sources>
+		<source>src/main/java</source>
+	</sources>
+	<packages>
+		<package name="br.com.unirriter.calculator" line-rate="0.4" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="br.com.unirriter.calculator.BestCalculatorEver" filename="br/com/unirriter/calculator/BestCalculatorEver.java" line-rate="0.4" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(II)I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="6" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="divide" signature="(II)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="multiple" signature="(II)I" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="subtraction" signature="(II)I" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="6" hits="1" branch="false"/>
+						<line number="10" hits="1" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

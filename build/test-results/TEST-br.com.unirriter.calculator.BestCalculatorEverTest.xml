@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.unirriter.calculator.BestCalculatorEverTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-24T03:54:04" hostname="SLEN00599585A" time="0.01">
+  <properties/>
+  <testcase name="testMultiple10By14" classname="br.com.unirriter.calculator.BestCalculatorEverTest" time="0.01"/>
+  <testcase name="testAdd1Plus1" classname="br.com.unirriter.calculator.BestCalculatorEverTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
