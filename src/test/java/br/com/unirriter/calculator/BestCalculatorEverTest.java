@@ -27,6 +27,6 @@ public class BestCalculatorEverTest {
 		int a = 10;
 		int b = 2;
 		
-		assertEquals(5, BestCalculatorEver.divide(a, b));
+		assertEquals(7, BestCalculatorEver.divide(a, b));
 	}
 }
