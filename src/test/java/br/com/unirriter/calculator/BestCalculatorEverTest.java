@@ -19,6 +19,6 @@ public class BestCalculatorEverTest {
 		int a = 10;
 		int b = 14;
 		
-		assertEquals(140, BestCalculatorEver.multiple(a, b));
+		assertEquals(120, BestCalculatorEver.multiple(a, b));
 	}
 }
