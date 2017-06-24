@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'Testing..'
 		bat 'gradle test --info'
+		bat 'gradle cobertura'
             }
         }
         stage('Deploy') {
