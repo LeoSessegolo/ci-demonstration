@@ -19,6 +19,14 @@ public class BestCalculatorEverTest {
 		int a = 10;
 		int b = 14;
 		
-		assertEquals(120, BestCalculatorEver.multiple(a, b));
+		assertEquals(140, BestCalculatorEver.multiple(a, b));
+	}
+	
+	@Test
+	public void testDivide10By5() {
+		int a = 10;
+		int b = 2;
+		
+		assertEquals(5, BestCalculatorEver.divide(a, b));
 	}
 }
