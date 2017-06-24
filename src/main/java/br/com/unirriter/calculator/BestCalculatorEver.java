@@ -14,7 +14,7 @@ public class BestCalculatorEver {
 		return a - b;
 	}
 	
-	public static double divide(int a, int b) {
+	public static int divide(int a, int b) {
 		return a / b;
 	}
 }
